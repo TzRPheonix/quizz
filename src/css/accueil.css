@@ -1,0 +1,28 @@
+.page-title {
+  position: relative;
+  text-align: center;
+  top: 40%;
+  color: #fafafa;
+  font-family: Phantomsans, sans-serif;
+  z-index: 100;
+}
+
+.visitor-button {
+  position: absolute;
+  top: 40%;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.login-buttons {
+  position: absolute;
+  top: 60%;
+  display: flex;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.login-buttons button:first-child {
+  margin-right: 10px;
+}
