@@ -1,10 +1,15 @@
 .page-title {
-  position: relative;
+  position: relative !important;
   text-align: center;
   top: 40%;
   color: #fafafa;
   font-family: Phantomsans, sans-serif;
-  z-index: 100;
+}
+
+button{
+  align-items: center;
+  width: 200px;
+  height: 50px;
 }
 
 .visitor-button {

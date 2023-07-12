@@ -1,12 +1,13 @@
 button{
-  background-image: linear-gradient(144deg,#5B42F3 50%, #3b00eb);
-  border: 2px solid rgb(123, 124, 228);
+  background-color: #f99617d6;
+  box-shadow: none;
   border-radius: 8px;
   color: #FFFFFF;
   display: flex;
   font-size: 20px;
   justify-content: center;
   cursor: pointer;
+  border: 0;
 }
 
 button:active,
@@ -15,7 +16,7 @@ button:hover {
 }
 
 button span {
-  background-color: #3a47d5;
+  background-color: #f99617d6;
   padding: 16px 24px;
   border-radius: 6px;
   width: 100%;

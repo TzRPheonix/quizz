@@ -1,0 +1,65 @@
+h1 {
+    position: relative !important;
+    text-align: center;
+    top: 40%;
+    color: #fafafa;
+    font-family: Phantomsans, sans-serif;
+  }
+  
+  .history {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    top: 15%;
+  }
+  
+  .history label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .history select {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .history ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+  }
+  
+  .history li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .history li:last-child {
+    border-bottom: none;
+  }
+  
+  .history p {
+    margin: 0;
+  }
+  
+  .history p:first-child {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .history-button {
+    width: 100px;
+    height: 25px;
+  }

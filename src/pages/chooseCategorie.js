@@ -61,6 +61,7 @@ function ChooseCategorie() {
   };
 
   const handlePlayBtnClick = () => {
+    localStorage.setItem('selectedCategoryId', selectedCategoryId);
     navigate(`/quizz?id=${selectedCategory.categorie}`);
   };
 
